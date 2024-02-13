@@ -55,12 +55,12 @@ if(isset($_POST["send"])){
         $mail->isSMTP();                    //isSMTP(): Set mailer to use SMTP.
         $mail->Host = 'smtp.gmail.com';     //Host: Specifies the servers.
         $mail->SMTPAuth = true;             //SMTPAuth: Enable/Disable SMTP Authentication.
-        $mail->Username = 'babudharshan161@gmail.com';    //Username: Specify the username.
-        $mail->Password = 'kucy rrimqt guhhuu';            //Password: use the 2 step verification password which in the app password
+        $mail->Username = 'your_email_id@gmail.com';    //Username: Specify the username.
+        $mail->Password = 'your 2 step verification password/App password of gmail';            //Password: use the 2 step verification password which in the app password
         $mail->SMTPSecure = 'tls';                        //SMTPSecure: Specify encryption technique. Accepted values ‘tls’ or ‘ssl’.
         $mail->Port = 587;                 //Specify the TCP port which is to be connected. if you need to use the port 587 then the SMTPSecure should be 'tls',for 'ssl' the port is 465 
 
-        $mail->setFrom('babudharshan161@gmail.com');      // Set sender of the mail
+        $mail->setFrom('your_email_id@gmail.com');      // Set sender of the mail
 
         $mail->addAddress($_POST["email"]);               // Add a recipient
 
