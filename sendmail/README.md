@@ -19,11 +19,11 @@
 The project was developed using HTML, CSS and JavaScript for the frontend, while PHP was employed for the backend, integrating with a MySQL database management system (DBMS).
 
 ## Project development tools:
-•	HTML 
-•	CSS
-•	JavaScript
-•	PHP
-•	Mysql
-•	Visual studio code (Code written platform)
-•	Xampp (for Apache server and mysql for dbms)
-•	Chrome (project testing and execution)
+*	HTML 
+*	CSS
+*	JavaScript
+*	PHP
+*	Mysql
+*	Visual studio code (Code written platform)
+*	Xampp (for Apache server and mysql for dbms)
+*	Chrome (project testing and execution)
